@@ -126,7 +126,7 @@ for(i=0;i<iD[1].length; i++)
 
 // Add .md files of Development folder
 // Text of Main menue of side-bar
-var wikiAddress ='](https://github.com/KiaTam/APIs-DocFx-to-Wiki/wiki/';
+var wikiAddress ='](https://github.com/gyanendushekhar/DocfxTest/wiki/';
 var sidebarTitles = '';
 var sidebarTitle0 = '';
 var sidebarTitle1 = '';
@@ -165,7 +165,7 @@ for(i=0;i<files.length; i++)
 // 2. Write .md files to the folder.
 
 var fileNames = fs.readdirSync(docsFolder);
-var imagesAddress = '(https://github.com/KiaTam/APIs-DocFx-to-Wiki/blob/master/Documentation/Development/images/';
+var imagesAddress = '(https://github.com/gyanendushekhar/DocfxTest/blob/master/Documentation/Development/images/';
 for(var i=0;i<fileNames.length;i++)
 {
 			if (fileNames[i] != 'images')
